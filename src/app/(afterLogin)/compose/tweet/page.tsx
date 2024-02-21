@@ -1,7 +1,5 @@
-"use client";
-
-import React from "react";
+import Home from "@/app/(afterLogin)/home/page";
 
 export default function Page() {
-  return <div>칠드런에 들어가는 거 </div>;
+  return <Home />;
 }
