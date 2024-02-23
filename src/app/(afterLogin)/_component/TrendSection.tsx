@@ -1,3 +1,6 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import style from "./trendSection.module.css";
 import Trend from "@/app/(afterLogin)/_component/Trend";
 

@@ -124,7 +124,7 @@ export default function NavMenu() {
         </Link>
       </li>
       <li>
-        {me?.username ?? (
+        {me?.username && (
           <Link href={`/${me?.username}`}>
             <div className={style.navPill}>
               {segment === me.username ? (
