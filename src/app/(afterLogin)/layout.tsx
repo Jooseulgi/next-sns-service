@@ -40,7 +40,7 @@ export default function AfterLoginLayout({
       </header>
       <div className={style.rightSectionWrapper}>
         <div className={style.rightSectionInner}>
-          <main className={style.main}>갈아끼어지는 곳{children}</main>
+          <main className={style.main}>{children}</main>
           <section className={style.rightSection}>
             <RigthSearchZone />
             <TrendSection />
