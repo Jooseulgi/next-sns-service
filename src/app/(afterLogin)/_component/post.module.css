@@ -149,6 +149,12 @@
   fill: rgb(29, 155, 240);
 }
 
+.commentButton.white svg,
+.commentButton.white .count {
+  fill: white;
+  color: white;
+}
+
 .commentButton.commented .count,
 .commentButton:hover .count {
   color: rgb(29, 155, 240);
