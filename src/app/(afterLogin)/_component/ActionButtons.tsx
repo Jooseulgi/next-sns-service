@@ -2,14 +2,13 @@
 import style from "./post.module.css";
 import cx from "classnames";
 
-interface Props {
+type Props = {
   white?: boolean;
-}
-
+};
 export default function ActionButtons({ white }: Props) {
   const commented = false;
-  const reposted = true;
-  const liked = true;
+  const reposted = false;
+  const liked = false;
 
   const onClickComment = () => {};
   const onClickRepost = () => {};
@@ -32,7 +31,7 @@ export default function ActionButtons({ white }: Props) {
             </g>
           </svg>
         </button>
-        <div className={style.count}>{0 || ""}</div>
+        <div className={style.count}>{1 || ""}</div>
       </div>
       <div
         className={cx(
@@ -64,7 +63,7 @@ export default function ActionButtons({ white }: Props) {
             </g>
           </svg>
         </button>
-        <div className={style.count}>{1 || ""}</div>
+        <div className={style.count}>{0 || ""}</div>
       </div>
     </div>
   );

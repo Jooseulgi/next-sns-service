@@ -1,7 +1,5 @@
 import Link from "next/link";
-import React from "react";
 import style from "./trend.module.css";
-
 export default function Trend() {
   const data = {
     text: "seulgi",

@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import style from "./logoutButton.module.css";
 
 export default function LogoutButton() {
